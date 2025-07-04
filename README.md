@@ -1,2 +1,11 @@
 # mnist_log_reg
-My attempt of building a ML model that is trained to recognize the handwritten digits, using the MNIST data set
+This is a simple digit recognizer trained on the MNIST dataset using logistic regression. This project was guided by Duke University
+## Features
+- Uses logistic regression on the MNIST dataset (0-9)
+- Trained using PyTorch
+- Saves models to 'models/'
+- Users can draw using the tkinter library and feed it to the model
+## How to use it
+- Clone the resipotory
+- Create a venv
+- Download the requirements and run the main.py
